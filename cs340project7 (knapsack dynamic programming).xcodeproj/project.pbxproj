@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF83E5711FC38A5200DF2F9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF83E5701FC38A5200DF2F9A /* main.cpp */; };
+		BF83E5711FC38A5200DF2F9A /* cs340project7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF83E5701FC38A5200DF2F9A /* cs340project7.cpp */; };
+		BF83E5791FC38AB400DF2F9A /* KnapsackDynamicProgramming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF83E5771FC38AB400DF2F9A /* KnapsackDynamicProgramming.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		BF83E56D1FC38A5200DF2F9A /* cs340project7 (knapsack dynamic programming) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs340project7 (knapsack dynamic programming)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF83E5701FC38A5200DF2F9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF83E5701FC38A5200DF2F9A /* cs340project7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cs340project7.cpp; sourceTree = "<group>"; };
+		BF83E5771FC38AB400DF2F9A /* KnapsackDynamicProgramming.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnapsackDynamicProgramming.cpp; sourceTree = "<group>"; };
+		BF83E5781FC38AB400DF2F9A /* KnapsackDynamicProgramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnapsackDynamicProgramming.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		BF83E56F1FC38A5200DF2F9A /* cs340project7 (knapsack dynamic programming) */ = {
 			isa = PBXGroup;
 			children = (
-				BF83E5701FC38A5200DF2F9A /* main.cpp */,
+				BF83E5701FC38A5200DF2F9A /* cs340project7.cpp */,
+				BF83E5771FC38AB400DF2F9A /* KnapsackDynamicProgramming.cpp */,
+				BF83E5781FC38AB400DF2F9A /* KnapsackDynamicProgramming.h */,
 			);
 			path = "cs340project7 (knapsack dynamic programming)";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF83E5711FC38A5200DF2F9A /* main.cpp in Sources */,
+				BF83E5711FC38A5200DF2F9A /* cs340project7.cpp in Sources */,
+				BF83E5791FC38AB400DF2F9A /* KnapsackDynamicProgramming.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
